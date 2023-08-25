@@ -4,5 +4,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="AppBar">#A6CB72</color>
     <color name="StatusBar">#F7CC4F</color>
+    <color name="Constraint_Background_Color">#FFA726</color>
+    <color name="Card_View_Background_Color">#FFAB40</color>
+    <color name="Text_Color">#FFFFFF</color>
+    <color name="Text_Background_Color"> #F5F5F5</color>
+    <color name="SplashBack">#FFB84D</color>
+
 
 </resources>

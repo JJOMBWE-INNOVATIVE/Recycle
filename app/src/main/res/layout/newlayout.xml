@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="400dp"
-    android:background="#9C9696">
+    android:background="#DA8203">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="380dp"
         android:layout_margin="20dp"
         android:background="#201F1F"
         app:cardElevation="50dp"
@@ -20,31 +20,35 @@
             android:id="@+id/constraintLayout2"
             android:layout_width="match_parent"
             android:layout_height="400dp"
-            android:background="#C656DF">
+            android:background="@color/Card_View_Background_Color">
 
             <ImageView
                 android:id="@+id/image"
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="150dp"
                 android:layout_margin="20dp"
-                android:layout_marginBottom="20dp"
-                android:background="#5DDC4F"
                 app:layout_constraintBottom_toTopOf="@+id/activity"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@tools:sample/avatars" />
+                app:srcCompat="@drawable/dinner" />
 
             <TextView
                 android:id="@+id/activity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:background="#7AA5F8"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/Text_Background_Color"
+                android:fontFamily="@font/abril_fatface"
                 android:gravity="center"
-                android:text="activity"
+                android:text="Activity"
+                android:textColor="@color/black"
                 android:textSize="24sp"
-                android:textStyle="bold|italic"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/time"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/image" />
@@ -54,14 +58,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:background="#ED6F6F"
+                android:background="@color/Text_Background_Color"
+                android:fontFamily="@font/dela_gothic_one"
                 android:gravity="center"
                 android:text="Time"
+                android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold|italic"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/activity" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>

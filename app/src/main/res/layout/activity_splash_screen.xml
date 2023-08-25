@@ -4,18 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7D8F9B"
+    android:background="@color/SplashBack"
     tools:context=".MyData.SplashScreen">
 
     <ImageView
-        android:id="@+id/SplashImage"
+        android:id="@+id/imageView"
         android:layout_width="200dp"
         android:layout_height="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/check"
-        tools:ignore="ImageContrastCheck"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/to" />
 </androidx.constraintlayout.widget.ConstraintLayout>
