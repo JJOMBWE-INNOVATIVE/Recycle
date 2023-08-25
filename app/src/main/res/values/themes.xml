@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Recycle" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/AppBar</item>
+    </style>
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/StatusBar</item>
+        <item name="colorPrimaryDark">@color/AppBar</item>
+    </style>
+
+    <style name="Theme.Recycle" parent="Base.Theme.Recycle" />
+</resources>
